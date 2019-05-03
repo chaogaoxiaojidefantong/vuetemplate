@@ -3,8 +3,7 @@
 ## Project setup
 ```
 npm install
-npm install iview --save
- npm install --save js-cookie
+
 
 ```
 
