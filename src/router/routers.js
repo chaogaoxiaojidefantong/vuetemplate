@@ -11,13 +11,17 @@ let routes=[
         children:[
             
         ]
-
     },
     {
         path:'/regist',
         name:'regist',
         component:()=>import('@/views/regist/regist.vue')
-    }
+    },
+    {
+        path:"/findPwd",
+        name:"findpwd",
+        component:()=>import('@/views/login/findpwd.vue'),           
+    },
 
 ];
 export default routes;

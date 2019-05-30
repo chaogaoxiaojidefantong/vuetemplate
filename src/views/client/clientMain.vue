@@ -1,5 +1,7 @@
 <template>
-<div>用户主页面</div>
+<div>
+
+</div>
 </template>
 <script>
 export default {
