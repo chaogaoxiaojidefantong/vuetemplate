@@ -54,7 +54,6 @@ export default {
         },
         methods: {
             handleSubmit (name) {
-                debugger
                  document.getElementById("button1").disabled=true;                                               
                 this.$refs['formValidate'].validate((valid) => {
                     if (valid) {                                          
